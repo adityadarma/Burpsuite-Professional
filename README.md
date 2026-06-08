@@ -159,7 +159,7 @@ brew install git openjdk@17
 Clone the Burp Suite Professional repository, download the Burp Suite JAR file, and execute the key generator and Burp Suite.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install_macos.sh | bash
+curl -fsSL https://raw.githubusercontent.com/adityadarma/Burpsuite-Professional/2025/install_macos.sh | bash
 ```
 
 ## Step 3: Install the `burp` Shortcut
