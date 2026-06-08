@@ -1,11 +1,10 @@
-git clone https://github.com/xiv3r/Burpsuite-Professional.git 
+git clone https://github.com/adityadarma/Burpsuite-Professional.git 
 cd Burpsuite-Professional
-
 
 # Download Burpsuite Professional
 echo "Downloading Burp Suite Professional Latest..."
 version=2025
-url="https://portswigger.net/burp/releases/download?product=pro&type=Jar"
+url="https://portswigger.net/burp/releases/download?product=pro&version=2025.12.5&type=Jar"
 curl -L "$url" -o "burpsuite_pro_v$version.jar"
 
 # Execute Key Generator and Burp Suite Simultaneously
